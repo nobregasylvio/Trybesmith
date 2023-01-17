@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import ProductService from '../services/Product.service';
+import 'express-async-errors';
 
 export default class ProductController {
   constructor(private productService = new ProductService()) { }
