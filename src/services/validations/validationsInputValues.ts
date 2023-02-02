@@ -1,5 +1,5 @@
 import Login from '../../interfaces/login.interface';
-import User from '../../interfaces/user.interface'
+import User from '../../interfaces/user.interface';
 import Product from '../../interfaces/product.interface';
 import HttpException from '../../shared/http.exception';
 import { loginSchema, productSchema, userSchema } from './schemas';
